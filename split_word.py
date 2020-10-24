@@ -33,7 +33,7 @@ class Tool():
 
 
 if __name__ == '__main__':
-    Tool('数据挖掘职位要求.txt','数据挖掘职位要求_result.txt')
-    # Tool('java后端职位要求.txt','java后端职位要求_result.txt')
+    # Tool('数据挖掘职位要求.txt','数据挖掘职位要求_result.txt')
+    Tool('java后端职位要求.txt','java后端职位要求_result_test10_21.txt')
     # Tool('互联网产品经理职位需求.txt','互联网产品经理职位需求_result.txt')
     # Tool('图像算法工程师职位需求.txt', '图像算法工程师职位需求_result.txt')

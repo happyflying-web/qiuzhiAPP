@@ -31,4 +31,4 @@ if __name__ == '__main__':
     # ex1=Extract('数据挖掘职位要求_result.txt','数据挖掘TOP.txt')
     # ex2=Extract('互联网产品经理职位需求_result.txt','互联网产品经理TOP.txt')
     # ex3=Extract('图像算法工程师职位需求_result.txt','图像算法工程师TOP.txt')
-    ex4=Extract('java后端职位要求_result.txt','java后端TOP.txt')
+    ex4=Extract('java后端职位要求_result_test10_21.txt','java后端TOP_test_10_21.txt')

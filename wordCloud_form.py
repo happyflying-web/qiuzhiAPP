@@ -2,8 +2,9 @@ from os import path
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, ImageColorGenerator
 
+
 class FormWordCloud:
-    def __init__(self,text_path,wordCloud_name):
+    def __init__(self, text_path, wordCloud_name):
         # text_path = 'java后端TOP.txt'  # 设置要分析的文本路径
         font_path = r'C:\Windows\Fonts\simfang.ttf'
         # 设置词云属性
@@ -28,8 +29,10 @@ class FormWordCloud:
         # 绘制词云
         # 保存图片
         wc.to_file(wordCloud_name)
+
+
 if __name__ == '__main__':
-    # FormWordCloud('互联网产品经理TOP.txt','互联网产品经理-词云图.jpg')
+    # FormWordCloud('互联网产品经理TOP.txt', '互联网产品经理-词云图.jpg')
     # FormWordCloud('数据挖掘TOP.txt', '数据挖掘-词云图.jpg')
-    # FormWordCloud('java后端TOP.txt', 'java后端-词云图.jpg')
-    FormWordCloud('图像算法工程师TOP.txt', '图像算法工程师-词云图.jpg')
+    FormWordCloud('java后端TOP_test_10_21.txt', 'java后端-词云图_test_10_21.jpg')
+    # FormWordCloud('图像算法工程师TOP.txt', '图像算法工程师-词云图.jpg')
