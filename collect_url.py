@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import time
 import random
-
+import os
 user_Agent = ['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) '
               'Chrome/61.0.3163.100 Safari/537.36', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, '
                                                     'like Gecko) Chrome/39.0.2171.95 Safari/537.36 OPR/26.0.1656.60',
